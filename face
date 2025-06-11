@@ -33,3 +33,4 @@ if uploaded_file:
     st.image(image, caption="Image with Detected Faces", use_column_width=True)
     
     st.write(f"Detected {len(faces)} face(s).")
+
